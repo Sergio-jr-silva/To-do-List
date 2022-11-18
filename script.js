@@ -23,8 +23,7 @@ var li = document.createElement('li');
     mudarText.value = li.innerHTML
  
       btnEdit.addEventListener("click", ()=>{
-        var list = {  novoValor: li.innerHTML }
-        console.log(list)
+       li.innerHTML = mudarText.value
 
 
       }) 
